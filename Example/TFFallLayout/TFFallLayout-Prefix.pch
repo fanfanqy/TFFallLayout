@@ -13,4 +13,12 @@
 #ifdef __OBJC__
     @import UIKit;
     @import Foundation;
+
+#import <TFFallLayout/TFFallLayoutHeaderFile.h>
+#import <TFFallLayout/TFFallLayoutAdaptor.h>
+#import <TFFallLayout/TFFallLayoutSectionItem.h>
+#import <TFFallLayout/TFCollectionReusableViewItem.h>
+
+#import <Masonry/Masonry.h>
+
 #endif

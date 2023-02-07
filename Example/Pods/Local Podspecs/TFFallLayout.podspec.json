@@ -1,0 +1,22 @@
+{
+  "name": "TFFallLayout",
+  "version": "0.1.0",
+  "summary": "TFFallLayout Collection布局",
+  "description": "Collection布局",
+  "homepage": "https://github.com/fanfanqy/TFFallLayout",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fanfanqy": "17755357647@163.com"
+  },
+  "source": {
+    "git": "https://github.com/fanfanqy/TFFallLayout.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TFFallLayout/Classes/**/*"
+}

@@ -22,6 +22,24 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		671970CA2991065D00654BF7 /* DemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 671970C92991065D00654BF7 /* DemoCollectionViewCell.m */; };
+		671970CD2991070200654BF7 /* DemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 671970CC2991070200654BF7 /* DemoModel.m */; };
+		671970D02991DC7300654BF7 /* Demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671970CF2991DC7300654BF7 /* Demo1ViewController.m */; };
+		671970D72991DDC400654BF7 /* ExampleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 671970D62991DDC400654BF7 /* ExampleCollectionViewCell.m */; };
+		671970DB2991E20500654BF7 /* Demo1VCViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 671970DA2991E20500654BF7 /* Demo1VCViewModel.m */; };
+		671970E22991E5EC00654BF7 /* DemoModel+DemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 671970E12991E5EC00654BF7 /* DemoModel+DemoCollectionViewCell.m */; };
+		677653D12991EDB100773EB3 /* Demo1Presenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 677653D02991EDB100773EB3 /* Demo1Presenter.m */; };
+		677653DB2991F7CA00773EB3 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 677653DA2991F7CA00773EB3 /* BaseCollectionViewCell.m */; };
+		677653DF2991F85A00773EB3 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 677653DE2991F85A00773EB3 /* BaseViewModel.m */; };
+		677653E22991FA0B00773EB3 /* BasePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 677653E12991FA0B00773EB3 /* BasePresenter.m */; };
+		677653E62991FAA400773EB3 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677653E52991FAA400773EB3 /* BaseViewController.m */; };
+		677653EA299203DF00773EB3 /* BaseHeaderFooterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 677653E9299203DF00773EB3 /* BaseHeaderFooterCell.m */; };
+		677653F729921B0800773EB3 /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677653F629921B0800773EB3 /* Demo2ViewController.m */; };
+		677653FA29921B2000773EB3 /* Demo2VCViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 677653F929921B2000773EB3 /* Demo2VCViewModel.m */; };
+		677653FD29921B3A00773EB3 /* Demo2Presenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 677653FC29921B3A00773EB3 /* Demo2Presenter.m */; };
+		6776540029921B5B00773EB3 /* Demo2CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 677653FF29921B5B00773EB3 /* Demo2CollectionViewCell.m */; };
+		6776540329921B6800773EB3 /* Demo2Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 6776540229921B6800773EB3 /* Demo2Model.m */; };
+		6776540729921C6600773EB3 /* Demo2Model+Demo2CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6776540629921C6600773EB3 /* Demo2Model+Demo2CollectionViewCell.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -59,14 +77,53 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		65EF9D2E70A811A851A0609A /* Pods-TFFallLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFFallLayout_Example.release.xcconfig"; path = "Target Support Files/Pods-TFFallLayout_Example/Pods-TFFallLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
+		671970C82991065D00654BF7 /* DemoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoCollectionViewCell.h; sourceTree = "<group>"; };
+		671970C92991065D00654BF7 /* DemoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoCollectionViewCell.m; sourceTree = "<group>"; };
+		671970CB2991070200654BF7 /* DemoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoModel.h; sourceTree = "<group>"; };
+		671970CC2991070200654BF7 /* DemoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoModel.m; sourceTree = "<group>"; };
+		671970CE2991DC7300654BF7 /* Demo1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo1ViewController.h; sourceTree = "<group>"; };
+		671970CF2991DC7300654BF7 /* Demo1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1ViewController.m; sourceTree = "<group>"; };
+		671970D52991DDC400654BF7 /* ExampleCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleCollectionViewCell.h; sourceTree = "<group>"; };
+		671970D62991DDC400654BF7 /* ExampleCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleCollectionViewCell.m; sourceTree = "<group>"; };
+		671970D92991E20500654BF7 /* Demo1VCViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo1VCViewModel.h; sourceTree = "<group>"; };
+		671970DA2991E20500654BF7 /* Demo1VCViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1VCViewModel.m; sourceTree = "<group>"; };
+		671970DF2991E44000654BF7 /* DemoCollectionViewCellAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoCollectionViewCellAdapter.h; sourceTree = "<group>"; };
+		671970E02991E5EC00654BF7 /* DemoModel+DemoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoModel+DemoCollectionViewCell.h"; sourceTree = "<group>"; };
+		671970E12991E5EC00654BF7 /* DemoModel+DemoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DemoModel+DemoCollectionViewCell.m"; sourceTree = "<group>"; };
+		677653CF2991EDB100773EB3 /* Demo1Presenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo1Presenter.h; sourceTree = "<group>"; };
+		677653D02991EDB100773EB3 /* Demo1Presenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1Presenter.m; sourceTree = "<group>"; };
+		677653D92991F7CA00773EB3 /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
+		677653DA2991F7CA00773EB3 /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
+		677653DC2991F7FD00773EB3 /* BaseCellAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCellAdapter.h; sourceTree = "<group>"; };
+		677653DD2991F85A00773EB3 /* BaseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		677653DE2991F85A00773EB3 /* BaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		677653E02991FA0B00773EB3 /* BasePresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasePresenter.h; sourceTree = "<group>"; };
+		677653E12991FA0B00773EB3 /* BasePresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasePresenter.m; sourceTree = "<group>"; };
+		677653E42991FAA400773EB3 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		677653E52991FAA400773EB3 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		677653E8299203DF00773EB3 /* BaseHeaderFooterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseHeaderFooterCell.h; sourceTree = "<group>"; };
+		677653E9299203DF00773EB3 /* BaseHeaderFooterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseHeaderFooterCell.m; sourceTree = "<group>"; };
+		677653F529921B0800773EB3 /* Demo2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2ViewController.h; sourceTree = "<group>"; };
+		677653F629921B0800773EB3 /* Demo2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2ViewController.m; sourceTree = "<group>"; };
+		677653F829921B2000773EB3 /* Demo2VCViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2VCViewModel.h; sourceTree = "<group>"; };
+		677653F929921B2000773EB3 /* Demo2VCViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2VCViewModel.m; sourceTree = "<group>"; };
+		677653FB29921B3A00773EB3 /* Demo2Presenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2Presenter.h; sourceTree = "<group>"; };
+		677653FC29921B3A00773EB3 /* Demo2Presenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2Presenter.m; sourceTree = "<group>"; };
+		677653FE29921B5B00773EB3 /* Demo2CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2CollectionViewCell.h; sourceTree = "<group>"; };
+		677653FF29921B5B00773EB3 /* Demo2CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2CollectionViewCell.m; sourceTree = "<group>"; };
+		6776540129921B6800773EB3 /* Demo2Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2Model.h; sourceTree = "<group>"; };
+		6776540229921B6800773EB3 /* Demo2Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2Model.m; sourceTree = "<group>"; };
+		6776540429921BC000773EB3 /* Demo2CollectionViewCellAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2CollectionViewCellAdapter.h; sourceTree = "<group>"; };
+		6776540529921C6600773EB3 /* Demo2Model+Demo2CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo2Model+Demo2CollectionViewCell.h"; sourceTree = "<group>"; };
+		6776540629921C6600773EB3 /* Demo2Model+Demo2CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Demo2Model+Demo2CollectionViewCell.m"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		831B419942A755333D572FA8 /* Pods_TFFallLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFFallLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		84143192BE8341157E8E9D26 /* TFFallLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TFFallLayout.podspec; path = ../TFFallLayout.podspec; sourceTree = "<group>"; };
+		84143192BE8341157E8E9D26 /* TFFallLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TFFallLayout.podspec; path = ../TFFallLayout.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F5D858D28727649B69DBF65 /* Pods_TFFallLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFFallLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B39D4267DF586E81F57481 /* Pods-TFFallLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFFallLayout_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TFFallLayout_Tests/Pods-TFFallLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C2D41934FA25087C2D188317 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C3BFEAB85613D0BC96634BAC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C2D41934FA25087C2D188317 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C3BFEAB85613D0BC96634BAC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +160,6 @@
 				A0B39D4267DF586E81F57481 /* Pods-TFFallLayout_Tests.debug.xcconfig */,
 				30BE7FC55F25AF507DDC3E01 /* Pods-TFFallLayout_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +200,9 @@
 		6003F593195388D20070C39A /* Example for TFFallLayout */ = {
 			isa = PBXGroup;
 			children = (
+				677653D42991F76B00773EB3 /* Base */,
+				671970D82991E1A800654BF7 /* Demo2 */,
+				671970D12991DD2700654BF7 /* Demo1 */,
 				6003F59C195388D20070C39A /* TFAppDelegate.h */,
 				6003F59D195388D20070C39A /* TFAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -152,6 +211,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				671970D52991DDC400654BF7 /* ExampleCollectionViewCell.h */,
+				671970D62991DDC400654BF7 /* ExampleCollectionViewCell.m */,
 			);
 			name = "Example for TFFallLayout";
 			path = TFFallLayout;
@@ -195,6 +256,240 @@
 				C3BFEAB85613D0BC96634BAC /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		671970D12991DD2700654BF7 /* Demo1 */ = {
+			isa = PBXGroup;
+			children = (
+				677653D32991EE1400773EB3 /* Request */,
+				677653D22991EE0B00773EB3 /* Logic */,
+				677653CE2991ED9E00773EB3 /* Presenter */,
+				671970E72991E68D00654BF7 /* ViewModel */,
+				671970E62991E68800654BF7 /* VC */,
+				671970E52991E66500654BF7 /* CellAdapter */,
+				671970E42991E65F00654BF7 /* Model */,
+				671970E32991E65500654BF7 /* Cell */,
+			);
+			name = Demo1;
+			sourceTree = "<group>";
+		};
+		671970D82991E1A800654BF7 /* Demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				677653F429921AE600773EB3 /* Cell */,
+				677653F329921ADF00773EB3 /* Model */,
+				677653F229921AD700773EB3 /* CellAdapter */,
+				677653F129921AD300773EB3 /* VC */,
+				677653F029921ACE00773EB3 /* ViewModel */,
+				677653EF29921AC300773EB3 /* Presenter */,
+				677653EE29921ABD00773EB3 /* Logic */,
+				677653EB29921AA100773EB3 /* Request */,
+			);
+			name = Demo2;
+			sourceTree = "<group>";
+		};
+		671970E32991E65500654BF7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				671970C82991065D00654BF7 /* DemoCollectionViewCell.h */,
+				671970C92991065D00654BF7 /* DemoCollectionViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		671970E42991E65F00654BF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				671970CB2991070200654BF7 /* DemoModel.h */,
+				671970CC2991070200654BF7 /* DemoModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		671970E52991E66500654BF7 /* CellAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				671970DF2991E44000654BF7 /* DemoCollectionViewCellAdapter.h */,
+				671970E02991E5EC00654BF7 /* DemoModel+DemoCollectionViewCell.h */,
+				671970E12991E5EC00654BF7 /* DemoModel+DemoCollectionViewCell.m */,
+			);
+			name = CellAdapter;
+			sourceTree = "<group>";
+		};
+		671970E62991E68800654BF7 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				671970CE2991DC7300654BF7 /* Demo1ViewController.h */,
+				671970CF2991DC7300654BF7 /* Demo1ViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		671970E72991E68D00654BF7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				671970D92991E20500654BF7 /* Demo1VCViewModel.h */,
+				671970DA2991E20500654BF7 /* Demo1VCViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		677653CE2991ED9E00773EB3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				677653CF2991EDB100773EB3 /* Demo1Presenter.h */,
+				677653D02991EDB100773EB3 /* Demo1Presenter.m */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		677653D22991EE0B00773EB3 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Logic;
+			sourceTree = "<group>";
+		};
+		677653D32991EE1400773EB3 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		677653D42991F76B00773EB3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				677653E72992039000773EB3 /* HeaderFooter */,
+				677653E32991FA9500773EB3 /* VC */,
+				677653D82991F7B000773EB3 /* Cell */,
+				677653D72991F78A00773EB3 /* CellAdapter */,
+				677653D62991F77F00773EB3 /* ViewModel */,
+				677653D52991F77800773EB3 /* Presenter */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		677653D52991F77800773EB3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				677653E02991FA0B00773EB3 /* BasePresenter.h */,
+				677653E12991FA0B00773EB3 /* BasePresenter.m */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		677653D62991F77F00773EB3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				677653DD2991F85A00773EB3 /* BaseViewModel.h */,
+				677653DE2991F85A00773EB3 /* BaseViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		677653D72991F78A00773EB3 /* CellAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				677653DC2991F7FD00773EB3 /* BaseCellAdapter.h */,
+			);
+			name = CellAdapter;
+			sourceTree = "<group>";
+		};
+		677653D82991F7B000773EB3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				677653D92991F7CA00773EB3 /* BaseCollectionViewCell.h */,
+				677653DA2991F7CA00773EB3 /* BaseCollectionViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		677653E32991FA9500773EB3 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				677653E42991FAA400773EB3 /* BaseViewController.h */,
+				677653E52991FAA400773EB3 /* BaseViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		677653E72992039000773EB3 /* HeaderFooter */ = {
+			isa = PBXGroup;
+			children = (
+				677653E8299203DF00773EB3 /* BaseHeaderFooterCell.h */,
+				677653E9299203DF00773EB3 /* BaseHeaderFooterCell.m */,
+			);
+			name = HeaderFooter;
+			sourceTree = "<group>";
+		};
+		677653EB29921AA100773EB3 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		677653EE29921ABD00773EB3 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		677653EF29921AC300773EB3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				677653FB29921B3A00773EB3 /* Demo2Presenter.h */,
+				677653FC29921B3A00773EB3 /* Demo2Presenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		677653F029921ACE00773EB3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				677653F829921B2000773EB3 /* Demo2VCViewModel.h */,
+				677653F929921B2000773EB3 /* Demo2VCViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		677653F129921AD300773EB3 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				677653F529921B0800773EB3 /* Demo2ViewController.h */,
+				677653F629921B0800773EB3 /* Demo2ViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		677653F229921AD700773EB3 /* CellAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				6776540429921BC000773EB3 /* Demo2CollectionViewCellAdapter.h */,
+				6776540529921C6600773EB3 /* Demo2Model+Demo2CollectionViewCell.h */,
+				6776540629921C6600773EB3 /* Demo2Model+Demo2CollectionViewCell.m */,
+			);
+			path = CellAdapter;
+			sourceTree = "<group>";
+		};
+		677653F329921ADF00773EB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6776540129921B6800773EB3 /* Demo2Model.h */,
+				6776540229921B6800773EB3 /* Demo2Model.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		677653F429921AE600773EB3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				677653FE29921B5B00773EB3 /* Demo2CollectionViewCell.h */,
+				677653FF29921B5B00773EB3 /* Demo2CollectionViewCell.m */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +543,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = fanfanqy;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = JRGR4F9D8T;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +556,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -302,10 +601,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TFFallLayout_Example/Pods-TFFallLayout_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/TFFallLayout/TFFallLayout.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TFFallLayout.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,9 +665,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6776540029921B5B00773EB3 /* Demo2CollectionViewCell.m in Sources */,
+				677653FA29921B2000773EB3 /* Demo2VCViewModel.m in Sources */,
+				677653EA299203DF00773EB3 /* BaseHeaderFooterCell.m in Sources */,
+				677653E22991FA0B00773EB3 /* BasePresenter.m in Sources */,
+				6776540729921C6600773EB3 /* Demo2Model+Demo2CollectionViewCell.m in Sources */,
+				671970E22991E5EC00654BF7 /* DemoModel+DemoCollectionViewCell.m in Sources */,
+				677653DF2991F85A00773EB3 /* BaseViewModel.m in Sources */,
+				677653D12991EDB100773EB3 /* Demo1Presenter.m in Sources */,
 				6003F59E195388D20070C39A /* TFAppDelegate.m in Sources */,
+				677653F729921B0800773EB3 /* Demo2ViewController.m in Sources */,
+				677653E62991FAA400773EB3 /* BaseViewController.m in Sources */,
+				671970D72991DDC400654BF7 /* ExampleCollectionViewCell.m in Sources */,
+				677653DB2991F7CA00773EB3 /* BaseCollectionViewCell.m in Sources */,
+				671970D02991DC7300654BF7 /* Demo1ViewController.m in Sources */,
+				677653FD29921B3A00773EB3 /* Demo2Presenter.m in Sources */,
 				6003F5A7195388D20070C39A /* TFViewController.m in Sources */,
+				6776540329921B6800773EB3 /* Demo2Model.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				671970CD2991070200654BF7 /* DemoModel.m in Sources */,
+				671970DB2991E20500654BF7 /* Demo1VCViewModel.m in Sources */,
+				671970CA2991065D00654BF7 /* DemoCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +813,7 @@
 			baseConfigurationReference = 4E97632D7EBF5A1C031490E3 /* Pods-TFFallLayout_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JRGR4F9D8T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TFFallLayout/TFFallLayout-Prefix.pch";
 				INFOPLIST_FILE = "TFFallLayout/TFFallLayout-Info.plist";
@@ -510,6 +830,7 @@
 			baseConfigurationReference = 65EF9D2E70A811A851A0609A /* Pods-TFFallLayout_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JRGR4F9D8T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TFFallLayout/TFFallLayout-Prefix.pch";
 				INFOPLIST_FILE = "TFFallLayout/TFFallLayout-Info.plist";
