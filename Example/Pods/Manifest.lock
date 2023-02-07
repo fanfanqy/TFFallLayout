@@ -1,6 +1,6 @@
 PODS:
   - Masonry (1.1.0)
-  - TFFallLayout (0.1.0)
+  - TFFallLayout (0.1.1)
 
 DEPENDENCIES:
   - Masonry
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  TFFallLayout: 2be4737ce3ae31ca83cd1bb6101e75d8021d51a7
+  TFFallLayout: c4d180e4b2b82c4f313bb5a38c427463dbbae0f6
 
 PODFILE CHECKSUM: f238178ee09a99400937c9dbee93e5d56b768aad
 

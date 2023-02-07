@@ -1,6 +1,6 @@
 {
   "name": "TFFallLayout",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "TFFallLayout Collection布局",
   "description": "Collection布局",
   "homepage": "https://github.com/fanfanqy/TFFallLayout",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/fanfanqy/TFFallLayout.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "10.0"
