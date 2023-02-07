@@ -8,10 +8,10 @@
 #import <Foundation/Foundation.h>
 #import "TFCollectionViewSectionItemProtocol.h"
 
-NS_ASSUME_NONNULL_BEGIN
+
 
 @interface TFCollectionViewSectionItem : NSObject <TFCollectionViewSectionItemProtocol>
 
 @end
 
-NS_ASSUME_NONNULL_END
+

@@ -12,7 +12,7 @@
 #import "TFFallLayoutBackground.h"
 #import "TFFallLayoutLinkageObject.h"
 
-NS_ASSUME_NONNULL_BEGIN
+
 
 @interface TFFallLayoutConfiguration : NSObject <NSCopying>
 
@@ -24,4 +24,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-NS_ASSUME_NONNULL_END
+

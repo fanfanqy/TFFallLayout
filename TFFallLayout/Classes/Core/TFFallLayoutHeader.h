@@ -9,7 +9,7 @@
 #import "TFFallLayoutZIndex.h"
 #import "TFFallLayoutStick.h"
 
-NS_ASSUME_NONNULL_BEGIN
+
 
 @interface TFFallLayoutHeader : NSObject
 
@@ -25,4 +25,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-NS_ASSUME_NONNULL_END
+

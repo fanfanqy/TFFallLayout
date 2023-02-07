@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import "BaseViewModel.h"
-NS_ASSUME_NONNULL_BEGIN
+
 
 @interface Demo1VCViewModel : BaseViewModel
 
 @end
 
-NS_ASSUME_NONNULL_END
+

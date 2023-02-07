@@ -7,10 +7,10 @@
 
 #import "TFCollectionViewCell.h"
 
-NS_ASSUME_NONNULL_BEGIN
+
 
 @interface TFFallEmptyHeaderFooterCell : TFCollectionViewCell
 
 @end
 
-NS_ASSUME_NONNULL_END
+

@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import "TFCollectionReusableViewItemProtocol.h"
 
-NS_ASSUME_NONNULL_BEGIN
+
 
 @protocol TFCollectionViewSectionItemProtocol <NSObject>
 
@@ -23,4 +23,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-NS_ASSUME_NONNULL_END
+

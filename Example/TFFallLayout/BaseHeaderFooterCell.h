@@ -8,7 +8,7 @@
 
 #import <TFFallLayout/TFFallLayout.h>
 
-NS_ASSUME_NONNULL_BEGIN
+
 
 @interface BaseHeaderFooterCell : TFFallEmptyHeaderFooterCell
 
@@ -16,4 +16,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-NS_ASSUME_NONNULL_END
+

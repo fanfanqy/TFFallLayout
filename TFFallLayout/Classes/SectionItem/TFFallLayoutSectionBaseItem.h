@@ -11,7 +11,7 @@
 #import "TFFallLayoutZIndex.h"
 #import "TFFallLayoutCompositor.h"
 
-NS_ASSUME_NONNULL_BEGIN
+
 
 ///不要直接使用这个类，请使用 `TFFallLayoutSectionItem` 或者 `TFFallLayoutFlowSectionItem`
 @interface TFFallLayoutSectionBaseItem : TFCollectionViewSectionItem
@@ -37,4 +37,4 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) CGFloat sectionFooterHeight  __attribute__((deprecated("use sectionFooterDimension instead."))); //default 0
 @end
 
-NS_ASSUME_NONNULL_END
+

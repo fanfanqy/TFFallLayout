@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
+
 
 typedef void(^CellResponseBlock)(NSString *identifier, id object);
 
@@ -34,4 +34,4 @@ typedef void(^CellResponseBlock)(NSString *identifier, id object);
 
 @end
 
-NS_ASSUME_NONNULL_END
+

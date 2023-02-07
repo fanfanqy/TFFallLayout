@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import "TFFallLayoutCompositor.h"
 
-NS_ASSUME_NONNULL_BEGIN
+
 
 @interface TFFallLayoutSection : NSObject
 
@@ -37,4 +37,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-NS_ASSUME_NONNULL_END
+

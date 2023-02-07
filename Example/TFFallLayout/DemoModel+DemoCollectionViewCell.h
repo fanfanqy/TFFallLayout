@@ -8,11 +8,11 @@
 
 #import "DemoModel.h"
 #import "DemoCollectionViewCellAdapter.h"
-NS_ASSUME_NONNULL_BEGIN
+
 
 @interface DemoModel (DemoCollectionViewCell)<DemoCollectionViewCellAdapter>
 
 
 @end
 
-NS_ASSUME_NONNULL_END
+

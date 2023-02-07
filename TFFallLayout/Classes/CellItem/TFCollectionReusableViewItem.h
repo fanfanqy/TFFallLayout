@@ -8,10 +8,10 @@
 #import <Foundation/Foundation.h>
 #import "TFCollectionReusableViewItemProtocol.h"
 
-NS_ASSUME_NONNULL_BEGIN
+
 
 @interface TFCollectionReusableViewItem : NSObject <TFCollectionReusableViewItemProtocol>
 
 @end
 
-NS_ASSUME_NONNULL_END
+

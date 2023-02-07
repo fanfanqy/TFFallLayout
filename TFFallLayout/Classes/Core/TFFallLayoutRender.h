@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
+
 
 /**
  1. 垂直滚动的collectionview, TFFallLayoutRenderAxis布局如下
@@ -75,4 +75,4 @@ typedef NS_ENUM(NSUInteger, TFFallLayoutRenderAxis) {
 
 @end
 
-NS_ASSUME_NONNULL_END
+

@@ -8,7 +8,7 @@
 #import <UIKit/UIKit.h>
 #import "TFCollectionReusableViewItem.h"
 
-NS_ASSUME_NONNULL_BEGIN
+
 
 @class TFCollectionViewCell;
 @protocol TFCollectionViewCellDelegate <NSObject>
@@ -27,4 +27,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-NS_ASSUME_NONNULL_END
+
