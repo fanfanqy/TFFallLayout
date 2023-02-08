@@ -14,7 +14,7 @@
 @protocol TFCollectionViewCellDelegate <NSObject>
 
 @optional
-- (void)collectionViewCell:(TFCollectionViewCell *_Nonnull)cell didTappedView:(UIView *_Nullable)view viewIdentifier:(NSString *_Nullable)identifier cellObject:(id<TFCollectionReusableViewItemProtocol>_Nonnull)object;
+- (void)collectionViewCell:(TFCollectionViewCell *_Nullable)cell didTappedView:(UIView *_Nullable)view viewIdentifier:(NSString *_Nullable)identifier cellObject:(id<TFCollectionReusableViewItemProtocol>_Nonnull)object;
 
 @end
 
@@ -23,7 +23,7 @@
 
 @property (nonatomic, strong) id<TFCollectionReusableViewItemProtocol> _Nonnull object;
 
-+ (CGSize)collectionView:(UICollectionView *_Nonnull)collectionView sizeForItem:(id<TFCollectionReusableViewItemProtocol>_Nonnull)object;
++ (CGSize)collectionView:(UICollectionView *_Nullable)collectionView sizeForItem:(id<TFCollectionReusableViewItemProtocol>_Nonnull)object;
 
 @end
 
