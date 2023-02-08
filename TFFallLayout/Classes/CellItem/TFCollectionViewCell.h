@@ -21,7 +21,7 @@
 
 @interface TFCollectionViewCell : UICollectionViewCell
 
-@property (nonatomic, strong) id<TFCollectionReusableViewItemProtocol> _Nullable object;
+@property (nonatomic, strong) id<TFCollectionReusableViewItemProtocol> _Nonnull object;
 
 + (CGSize)collectionView:(UICollectionView *_Nonnull)collectionView sizeForItem:(id<TFCollectionReusableViewItemProtocol>_Nonnull)object;
 
