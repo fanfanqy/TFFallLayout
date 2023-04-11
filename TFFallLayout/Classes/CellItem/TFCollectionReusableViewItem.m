@@ -9,7 +9,7 @@
 
 @implementation TFCollectionReusableViewItem
 
-@synthesize cellClass, cellType = _cellType, cellSize, cellResponse, cellResponseBlock, model, useNib, accessibilityIdentifier, associatedCell;
+@synthesize cellClass, cellType = _cellType, cellSize, cellResponse, model, useNib, accessibilityIdentifier, associatedCell;
 
 - (NSString *)cellType {
     return _cellType?:NSStringFromClass(self.cellClass);

@@ -7,10 +7,6 @@
 
 #import <UIKit/UIKit.h>
 
-
-
-typedef void(^CellResponseBlock)(NSString * _Nullable identifier, id _Nullable object);
-
 @protocol TFCollectionReusableViewItemProtocol <NSObject>
 
 @property (nonatomic, strong) Class _Nonnull cellClass;
@@ -18,7 +14,6 @@ typedef void(^CellResponseBlock)(NSString * _Nullable identifier, id _Nullable o
 @property (nonatomic, copy) NSValue * _Nullable cellSize;
 
 @property (nonatomic, weak) id _Nullable cellResponse;
-@property(nonatomic,copy) CellResponseBlock _Nullable cellResponseBlock;
 
 @property(nonatomic,strong) id _Nullable model;
 
