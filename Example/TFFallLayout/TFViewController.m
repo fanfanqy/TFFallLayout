@@ -58,7 +58,6 @@
     model1.title1 = @"普通试图";
     [self.models addObject:model1];
     
-    
     DemoModel *model2 = [DemoModel new];
     model2.title1 = @"复杂布局试图";
     [self.models addObject:model2];
@@ -93,9 +92,6 @@
         TFFallEmptyHeaderFooterItem *headerFooterItem = [TFFallEmptyHeaderFooterItem new];
         headerFooterItem.backgroundColor = [UIColor redColor];
         headerFooterItem.cellClass = [BaseHeaderFooterCell class];
-//        headerFooterItem.cellResponseBlock = ^(NSString * _Nonnull identifier, id  _Nonnull object) {
-//            NSLog(@"点击了header");
-//        };
         headerFooterItem.model = @"头部";
         section.sectionHeaderDimension = 30;
         section.headerItem = headerFooterItem;
@@ -105,9 +101,6 @@
         TFFallEmptyHeaderFooterItem *headerFooterItem = [TFFallEmptyHeaderFooterItem new];
         headerFooterItem.backgroundColor = [UIColor greenColor];
         headerFooterItem.cellClass = [BaseHeaderFooterCell class];
-//        headerFooterItem.cellResponseBlock = ^(NSString * _Nonnull identifier, id  _Nonnull object) {
-//            NSLog(@"点击了footer");
-//        };
         headerFooterItem.model = @"尾部";
         section.sectionFooterDimension = 30;
         section.footerItem = headerFooterItem;
@@ -141,7 +134,7 @@
 // 选中cell
 - (void)collectionView:(UICollectionView *)collectionView didSelectObject:(id<TFCollectionReusableViewItemProtocol>)object rowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"点击cell：%@",object);
+    NSLog(@"点击Cell：%ld:%ld，原数据：%@",indexPath.section,indexPath.item,object);
     if([object.model isKindOfClass:[DemoModel class]]){
         if(indexPath.section == 0) {
             if(indexPath.item == 0) {

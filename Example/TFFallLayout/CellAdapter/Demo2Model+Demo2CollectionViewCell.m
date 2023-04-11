@@ -27,12 +27,12 @@
 
 - (CGFloat)cellWidth
 {
-    return ([UIScreen mainScreen].bounds.size.width-1)/4.0;
+    return ([UIScreen mainScreen].bounds.size.width-10*2-10*2-10)/2.0;
 }
 
 - (CGFloat)cellHeight
 {
-    return 100;
+    return random()%100+random()%50+60;
 }
 
 @end

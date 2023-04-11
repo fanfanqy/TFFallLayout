@@ -17,19 +17,13 @@
 
 - (TFFallLayoutSectionItem *)makeSectionWithRecord:(NSArray *)models
 {
-    CellResponseBlock cellResponseBlock = ^(NSString * _Nonnull identifier, id  _Nonnull object) {
-        [self handleCellResponseObject:object identifier:identifier];
-        
-    };
-    
     // 有数据
     NSMutableArray *items = [NSMutableArray array];
     [models enumerateObjectsUsingBlock:^(id _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         TFCollectionReusableViewItem *contentItem = [TFCollectionReusableViewItem new];
         contentItem.model = obj;
         contentItem.cellClass = [DemoCollectionViewCell class];
-//        contentItem.cellResponse = self;
-        contentItem.cellResponseBlock = cellResponseBlock;
+        contentItem.cellResponse = self;
         [items addObject:contentItem];
         
     }];
@@ -43,14 +37,14 @@
 {
     if([object.model isKindOfClass:[DemoModel class]]){
         DemoModel *model = object.model;
-        NSLog(@"cellResponseWithIdentifier:%@、object:%@",identifier,model);
+        NSLog(@"Cell上按钮点击：identifier:%@、object:%@",identifier,model);
         
     }
 }
 
 - (void)handleCellClickAtIndexPath:(NSIndexPath *)indexPath object:(id<TFCollectionReusableViewItemProtocol>)object
 {
-    NSLog(@"%@:%@",indexPath,object);
+    NSLog(@"点击Cell：%ld:%ld，原数据：%@",indexPath.section,indexPath.item,object);
     
 }
 

@@ -22,6 +22,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6712677729E409FC00D66F4B /* Demo2HeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6712677529E409FC00D66F4B /* Demo2HeaderCell.m */; };
+		6712677829E409FC00D66F4B /* Demo2HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6712677629E409FC00D66F4B /* Demo2HeaderCell.xib */; };
+		6712678529E52DD800D66F4B /* Demo2SectionBackgroundCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6712678329E52DD800D66F4B /* Demo2SectionBackgroundCollectionViewCell.m */; };
+		6712678629E52DD800D66F4B /* Demo2SectionBackgroundCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6712678429E52DD800D66F4B /* Demo2SectionBackgroundCollectionViewCell.xib */; };
 		671970CA2991065D00654BF7 /* DemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 671970C92991065D00654BF7 /* DemoCollectionViewCell.m */; };
 		671970CD2991070200654BF7 /* DemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 671970CC2991070200654BF7 /* DemoModel.m */; };
 		671970D02991DC7300654BF7 /* Demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671970CF2991DC7300654BF7 /* Demo1ViewController.m */; };
@@ -77,6 +81,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		65EF9D2E70A811A851A0609A /* Pods-TFFallLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFFallLayout_Example.release.xcconfig"; path = "Target Support Files/Pods-TFFallLayout_Example/Pods-TFFallLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6712677429E409FC00D66F4B /* Demo2HeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2HeaderCell.h; sourceTree = "<group>"; };
+		6712677529E409FC00D66F4B /* Demo2HeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2HeaderCell.m; sourceTree = "<group>"; };
+		6712677629E409FC00D66F4B /* Demo2HeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo2HeaderCell.xib; sourceTree = "<group>"; };
+		6712678229E52DD800D66F4B /* Demo2SectionBackgroundCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2SectionBackgroundCollectionViewCell.h; sourceTree = "<group>"; };
+		6712678329E52DD800D66F4B /* Demo2SectionBackgroundCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2SectionBackgroundCollectionViewCell.m; sourceTree = "<group>"; };
+		6712678429E52DD800D66F4B /* Demo2SectionBackgroundCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo2SectionBackgroundCollectionViewCell.xib; sourceTree = "<group>"; };
 		671970C82991065D00654BF7 /* DemoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoCollectionViewCell.h; sourceTree = "<group>"; };
 		671970C92991065D00654BF7 /* DemoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoCollectionViewCell.m; sourceTree = "<group>"; };
 		671970CB2991070200654BF7 /* DemoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoModel.h; sourceTree = "<group>"; };
@@ -488,6 +498,12 @@
 			children = (
 				677653FE29921B5B00773EB3 /* Demo2CollectionViewCell.h */,
 				677653FF29921B5B00773EB3 /* Demo2CollectionViewCell.m */,
+				6712677429E409FC00D66F4B /* Demo2HeaderCell.h */,
+				6712677529E409FC00D66F4B /* Demo2HeaderCell.m */,
+				6712677629E409FC00D66F4B /* Demo2HeaderCell.xib */,
+				6712678229E52DD800D66F4B /* Demo2SectionBackgroundCollectionViewCell.h */,
+				6712678329E52DD800D66F4B /* Demo2SectionBackgroundCollectionViewCell.m */,
+				6712678429E52DD800D66F4B /* Demo2SectionBackgroundCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -577,6 +593,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				6712677829E409FC00D66F4B /* Demo2HeaderCell.xib in Resources */,
+				6712678629E52DD800D66F4B /* Demo2SectionBackgroundCollectionViewCell.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -672,9 +690,11 @@
 				6776540729921C6600773EB3 /* Demo2Model+Demo2CollectionViewCell.m in Sources */,
 				671970E22991E5EC00654BF7 /* DemoModel+DemoCollectionViewCell.m in Sources */,
 				677653DF2991F85A00773EB3 /* BaseViewModel.m in Sources */,
+				6712678529E52DD800D66F4B /* Demo2SectionBackgroundCollectionViewCell.m in Sources */,
 				677653D12991EDB100773EB3 /* Demo1Presenter.m in Sources */,
 				6003F59E195388D20070C39A /* TFAppDelegate.m in Sources */,
 				677653F729921B0800773EB3 /* Demo2ViewController.m in Sources */,
+				6712677729E409FC00D66F4B /* Demo2HeaderCell.m in Sources */,
 				677653E62991FAA400773EB3 /* BaseViewController.m in Sources */,
 				671970D72991DDC400654BF7 /* ExampleCollectionViewCell.m in Sources */,
 				677653DB2991F7CA00773EB3 /* BaseCollectionViewCell.m in Sources */,
@@ -817,6 +837,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TFFallLayout/TFFallLayout-Prefix.pch";
 				INFOPLIST_FILE = "TFFallLayout/TFFallLayout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -834,6 +855,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TFFallLayout/TFFallLayout-Prefix.pch";
 				INFOPLIST_FILE = "TFFallLayout/TFFallLayout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

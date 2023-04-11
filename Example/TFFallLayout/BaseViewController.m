@@ -54,6 +54,7 @@
         _collectionView.showsVerticalScrollIndicator = NO;
         _collectionView.delegate = self.adaptor;
         _collectionView.dataSource = self.adaptor;
+        _collectionView.backgroundColor = [UIColor clearColor];
     }
     return _collectionView;
 }

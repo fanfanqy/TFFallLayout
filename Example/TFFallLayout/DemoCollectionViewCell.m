@@ -55,21 +55,12 @@
     if (self.object.cellResponse && [self.object.cellResponse respondsToSelector:@selector(collectionViewCell:didTappedView:viewIdentifier:cellObject:)]) {
         [self.object.cellResponse collectionViewCell:self didTappedView:self viewIdentifier:item.btnTitle1 cellObject:self.object];
     }
-    if(self.object.cellResponseBlock){
-        self.object.cellResponseBlock(item.btnTitle1,self.object);
-        
-    }
-    
 }
 
 - (void)didClickBtn2:(UIButton *)btn {
     id<DemoCollectionViewCellAdapter> item = self.object.model;
     if (self.object.cellResponse && [self.object.cellResponse respondsToSelector:@selector(collectionViewCell:didTappedView:viewIdentifier:cellObject:)]) {
         [self.object.cellResponse collectionViewCell:self didTappedView:self viewIdentifier:item.btnTitle2 cellObject:self.object];
-    }
-    if(self.object.cellResponseBlock){
-        self.object.cellResponseBlock(item.btnTitle2,self.object);
-        
     }
 }
 

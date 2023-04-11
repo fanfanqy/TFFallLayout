@@ -22,6 +22,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor lightGrayColor];
     [self reloadData];
     
 }
@@ -42,40 +43,82 @@
 {
     {
         Demo2Model *model = [Demo2Model new];
-        model.title = @"Pending";
+        model.title = @"0";
         model.imageName = @"home_oneClickShippingOrders";
         [self.viewModel.models addObject:model];
     }
     {
         Demo2Model *model = [Demo2Model new];
-        model.title = @"Confirmed";
+        model.title = @"1";
         model.imageName = @"home_oneClickShippingOrders";
         [self.viewModel.models addObject:model];
     }
     {
         Demo2Model *model = [Demo2Model new];
-        model.title = @"Processing";
+        model.title = @"2";
         model.imageName = @"home_oneClickShippingOrders";
         [self.viewModel.models addObject:model];
     }
     {
         Demo2Model *model = [Demo2Model new];
-        model.title = @"Shipped";
+        model.title = @"3";
         model.imageName = @"home_oneClickShippingOrders";
         [self.viewModel.models addObject:model];
     }
-//    {
-//        Demo2Model *model = [Demo2Model new];
-//        model.title = @"Completed";
-//        model.imageName = @"home_oneClickShippingOrders";
-//        [self.viewModel.models addObject:model];
-//    }
-//    {
-//        Demo2Model *model = [Demo2Model new];
-//        model.title = @"Canceled";
-//        model.imageName = @"home_oneClickShippingOrders";
-//        [self.viewModel.models addObject:model];
-//    }
+    {
+        Demo2Model *model = [Demo2Model new];
+        model.title = @"4";
+        model.imageName = @"home_oneClickShippingOrders";
+        [self.viewModel.models addObject:model];
+    }
+    {
+        Demo2Model *model = [Demo2Model new];
+        model.title = @"5";
+        model.imageName = @"home_oneClickShippingOrders";
+        [self.viewModel.models addObject:model];
+    }
+    {
+        Demo2Model *model = [Demo2Model new];
+        model.title = @"6";
+        model.imageName = @"home_oneClickShippingOrders";
+        [self.viewModel.models addObject:model];
+    }
+    {
+        Demo2Model *model = [Demo2Model new];
+        model.title = @"7";
+        model.imageName = @"home_oneClickShippingOrders";
+        [self.viewModel.models addObject:model];
+    }
+    {
+        Demo2Model *model = [Demo2Model new];
+        model.title = @"8";
+        model.imageName = @"home_oneClickShippingOrders";
+        [self.viewModel.models addObject:model];
+    }
+    {
+        Demo2Model *model = [Demo2Model new];
+        model.title = @"9";
+        model.imageName = @"home_oneClickShippingOrders";
+        [self.viewModel.models addObject:model];
+    }
+    {
+        Demo2Model *model = [Demo2Model new];
+        model.title = @"10";
+        model.imageName = @"home_oneClickShippingOrders";
+        [self.viewModel.models addObject:model];
+    }
+    {
+        Demo2Model *model = [Demo2Model new];
+        model.title = @"11";
+        model.imageName = @"home_oneClickShippingOrders";
+        [self.viewModel.models addObject:model];
+    }
+    {
+        Demo2Model *model = [Demo2Model new];
+        model.title = @"12";
+        model.imageName = @"home_oneClickShippingOrders";
+        [self.viewModel.models addObject:model];
+    }
     
     self.adaptor.delegate = self.viewModel;
     
